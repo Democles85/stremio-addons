@@ -1,0 +1,15 @@
+{
+  "id": "org.subtitlesync.reference",
+  "version": "2.1.0",
+  "name": "Subtitle Sync",
+  "description": "Finds subtitles in your language and syncs them to the exact file you're playing, using the video's own subtitle track when possible. Sources: OpenSubtitles (free account needed), Titlovi, SubDL, SubSource and more. Supports auto-translation with a free Gemini key. Help: subtitlesync.stream/discord",
+  "logo": "https://subtitlesync.stream/web/logo.png",
+  "types": ["movie", "series"],
+  "resources": ["subtitles"],
+  "catalogs": [],
+  "idPrefixes": ["tt", "kitsu:", "mal:"],
+  "behaviorHints": {
+    "configurable": true,
+    "configurationRequired": false
+  }
+}
